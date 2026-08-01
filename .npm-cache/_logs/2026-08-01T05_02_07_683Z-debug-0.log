@@ -1,0 +1,1267 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\sidat\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.11.1
+2 info using node@v24.14.0
+3 silly config load:file:C:\Users\sidat\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:D:\Repos\Portfolio_AO_World\.npmrc
+5 silly config load:file:C:\Users\sidat\.npmrc
+6 silly config load:file:C:\Users\sidat\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:D:\Repos\Portfolio_AO_World\.npm-cache\_logs\2026-08-01T05_02_07_683Z-
+10 verbose logfile D:\Repos\Portfolio_AO_World\.npm-cache\_logs\2026-08-01T05_02_07_683Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+14 silly idealTree buildDeps
+15 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\axe-core' ]
+16 silly reify mark retired [
+16 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\baseline-browser-mapping'
+16 silly reify ]
+17 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\brace-expansion' ]
+18 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\browserslist' ]
+19 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\caniuse-lite' ]
+20 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\electron-to-chromium' ]
+21 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\enhanced-resolve' ]
+22 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\es-iterator-helpers' ]
+23 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\es-module-lexer' ]
+24 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\es-to-primitive' ]
+25 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\esbuild' ]
+26 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\eslint-module-utils' ]
+27 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\fast-uri' ]
+28 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\fflate' ]
+29 silly reify mark retired [
+29 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\function.prototype.name'
+29 silly reify ]
+30 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\hasown' ]
+31 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\js-yaml' ]
+32 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\loader-runner' ]
+33 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\nanoid' ]
+34 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\node-exports-info' ]
+35 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\node-releases' ]
+36 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\own-keys' ]
+37 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\postcss' ]
+38 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\srvx' ]
+39 silly reify mark retired [
+39 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\string.prototype.trim'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\string.prototype.trimend'
+40 silly reify ]
+41 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\terser' ]
+42 silly reify mark retired [
+42 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\terser-webpack-plugin'
+42 silly reify ]
+43 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\tinyglobby' ]
+44 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\three' ]
+45 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsx' ]
+46 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\typed-array-length' ]
+47 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\typescript-eslint' ]
+48 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\unrs-resolver' ]
+49 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\webpack' ]
+50 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\webpack-sources' ]
+51 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\which-typed-array' ]
+52 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\compat-data' ]
+53 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\helpers' ]
+54 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\parser' ]
+55 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild\\win32-x64' ]
+56 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@emnapi\\runtime' ]
+57 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@eslint\\eslintrc' ]
+58 silly reify mark retired [ 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@tybys\\wasm-util' ]
+59 silly reify mark retired [
+59 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@speed-highlight\\core'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\eslint-plugin'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\project-service'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\parser'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\scope-manager'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\types'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\type-utils'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\typescript-estree'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\tsconfig-utils'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\utils'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\visitor-keys'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@unrs\\resolver-binding-win32-x64-msvc'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\acorn',
+71 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\acorn',
+71 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\acorn.cmd',
+71 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\acorn.ps1'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\drizzle-kit',
+72 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\drizzle-kit',
+72 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\drizzle-kit.cmd',
+72 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\drizzle-kit.ps1'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\eslint',
+73 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\eslint',
+73 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\eslint.cmd',
+73 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\eslint.ps1'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\image-size',
+74 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\image-size',
+74 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\image-size.cmd',
+74 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\image-size.ps1'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\is-bun-module\\node_modules\\semver'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\jsesc',
+76 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jsesc',
+76 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jsesc.cmd',
+76 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jsesc.ps1'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\jiti',
+77 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jiti',
+77 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jiti.cmd',
+77 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jiti.ps1'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\json5',
+78 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\json5',
+78 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\json5.cmd',
+78 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\json5.ps1'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\loose-envify',
+79 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\loose-envify',
+79 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\loose-envify.cmd',
+79 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\loose-envify.ps1'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\miniflare',
+80 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\miniflare',
+80 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\miniflare.cmd',
+80 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\miniflare.ps1'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\napi-postinstall',
+81 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\napi-postinstall',
+81 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\napi-postinstall.cmd',
+81 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\napi-postinstall.ps1'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\next',
+82 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\next',
+82 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\next.cmd',
+82 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\next.ps1'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\resolve',
+83 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\resolve',
+83 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\resolve.cmd',
+83 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\resolve.ps1'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\rolldown',
+84 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\rolldown',
+84 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\rolldown.cmd',
+84 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\rolldown.ps1'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\semver',
+85 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\semver',
+85 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\semver.cmd',
+85 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\semver.ps1'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\sharp\\node_modules\\semver'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfck',
+87 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsconfck',
+87 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsconfck.cmd',
+87 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsconfck.ps1'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\json5',
+88 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5',
+88 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd',
+88 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\typescript',
+89 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsc',
+89 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsc.cmd',
+89 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsc.ps1',
+89 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsserver',
+89 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsserver.cmd',
+89 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsserver.ps1'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\vinext',
+90 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vinext',
+90 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vinext.cmd',
+90 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vinext.ps1'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\update-browserslist-db',
+91 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\update-browserslist-db',
+91 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\update-browserslist-db.cmd',
+91 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\update-browserslist-db.ps1'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\vite',
+92 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vite',
+92 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vite.cmd',
+92 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vite.ps1'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\which',
+93 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\node-which',
+93 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\node-which.cmd',
+93 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\node-which.ps1'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\workerd',
+94 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\workerd',
+94 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\workerd.cmd',
+94 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\workerd.ps1'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\wrangler',
+95 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler',
+95 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler.cmd',
+95 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler.ps1',
+95 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler2',
+95 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler2.cmd',
+95 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler2.ps1'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\esbuild',
+96 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild',
+96 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.cmd',
+96 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.ps1'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@shuding\\opentype.js',
+97 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\ot',
+97 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\ot.cmd',
+97 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\ot.ps1'
+97 silly reify ]
+98 silly reify moves {
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\axe-core': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.axe-core-Ayd2OCnZ',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\baseline-browser-mapping': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.baseline-browser-mapping-Y2Myie01',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\brace-expansion': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.brace-expansion-S5HP7ym8',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\browserslist': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.browserslist-29vFoylD',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\caniuse-lite': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.caniuse-lite-ugFokRZk',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\electron-to-chromium': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.electron-to-chromium-fXmrsEHx',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\enhanced-resolve': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.enhanced-resolve-VhS0lOCo',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\es-iterator-helpers': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.es-iterator-helpers-26QliLcQ',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\es-module-lexer': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.es-module-lexer-j5KGygTW',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\es-to-primitive': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.es-to-primitive-Sfnd5C5F',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\esbuild': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.esbuild-KQEghTwA',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\eslint-module-utils': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.eslint-module-utils-ylcZ6jcU',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\fast-uri': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.fast-uri-UDhEoGXD',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\fflate': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.fflate-I0p6FAko',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\function.prototype.name': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.function.prototype.name-RK6klqmg',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\hasown': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.hasown-Pvpwq9U6',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\js-yaml': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.js-yaml-bihsXVIc',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\loader-runner': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.loader-runner-OVH1TuEi',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\nanoid': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.nanoid-Imgvk5gd',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\node-exports-info': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.node-exports-info-T1Wc22Wk',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\node-releases': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.node-releases-rzTmN7nK',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\own-keys': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.own-keys-lImQVVKf',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\postcss': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.postcss-N46GRyMz',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\srvx': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.srvx-i4EnBDrt',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\string.prototype.trim': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.string.prototype.trim-BZUmMhUZ',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\string.prototype.trimend': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.string.prototype.trimend-kfEuDkSQ',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\terser': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.terser-c0Q85I4D',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\terser-webpack-plugin': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.terser-webpack-plugin-C2ElNCz6',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tinyglobby': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.tinyglobby-cKmlymM9',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\three': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.three-E0j7PpdW',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsx': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.tsx-nnHAH2oG',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\typed-array-length': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.typed-array-length-r9iO5aDP',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\typescript-eslint': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.typescript-eslint-AIM0FjGi',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\unrs-resolver': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.unrs-resolver-B5Awjz0U',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\webpack': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.webpack-dd2ZH0v7',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\webpack-sources': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.webpack-sources-s3VnbzIf',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\which-typed-array': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.which-typed-array-bsJdA6pU',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\compat-data': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\.compat-data-9jweaeAP',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\helpers': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\.helpers-OgxMUqxy',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\parser': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@babel\\.parser-4kKeeXZ2',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild\\win32-x64': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild\\.win32-x64-MWCcrerW',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@emnapi\\runtime': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@emnapi\\.runtime-RyB1uPuP',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@eslint\\eslintrc': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@eslint\\.eslintrc-oci4AaUe',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@tybys\\wasm-util': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@tybys\\.wasm-util-d8liqgCR',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@speed-highlight\\core': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@speed-highlight\\.core-kIp0E1ed',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\eslint-plugin': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.eslint-plugin-DcLc7Stx',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\project-service': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.project-service-esSY3Zdh',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\parser': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.parser-w6QKHXAZ',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\scope-manager': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.scope-manager-RK5klj4G',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\types': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.types-IkUfGdia',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\type-utils': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.type-utils-yVuoDOMR',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\typescript-estree': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.typescript-estree-BIJtm3h7',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\tsconfig-utils': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.tsconfig-utils-wat7bPou',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\utils': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.utils-4PhXKrvY',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\visitor-keys': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@typescript-eslint\\.visitor-keys-RnhpuHkA',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@unrs\\resolver-binding-win32-x64-msvc': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@unrs\\.resolver-binding-win32-x64-msvc-zHFd6LKD',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\acorn': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.acorn-fLfGWT0L',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\acorn': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.acorn-tP6XbYgL',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\acorn.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.acorn.cmd-Ix5Os3ft',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\acorn.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.acorn.ps1-r7GHS2pj',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\drizzle-kit': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.drizzle-kit-L2D3pijy',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\drizzle-kit': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.drizzle-kit-1rtvULHX',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\drizzle-kit.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.drizzle-kit.cmd-0R1NaMHT',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\drizzle-kit.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.drizzle-kit.ps1-hpGzQrki',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\eslint': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.eslint-TWGenfFm',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\eslint': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.eslint-ivy6jRzV',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\eslint.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.eslint.cmd-jJm30wxm',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\eslint.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.eslint.ps1-15CCGsHY',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\image-size': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.image-size-gYdEGpjT',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\image-size': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.image-size-em39kbjU',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\image-size.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.image-size.cmd-e7C7rmZX',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\image-size.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.image-size.ps1-hNTUHDQq',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\is-bun-module\\node_modules\\semver': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\is-bun-module\\node_modules\\.semver-LwaQlBax',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\jsesc': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.jsesc-ZEIWsJu9',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jsesc': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.jsesc-8fCj6WVi',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jsesc.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.jsesc.cmd-xWvaweUn',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jsesc.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.jsesc.ps1-sae0r1YH',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\jiti': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.jiti-qPLh3NUp',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jiti': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.jiti-9S0Xkkre',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jiti.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.jiti.cmd-MvI7AWYh',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\jiti.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.jiti.ps1-wCrD6J4b',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\json5': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.json5-0PujY9x6',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\json5': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.json5-8jCcvs6h',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\json5.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.json5.cmd-ToDiv6bG',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\json5.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.json5.ps1-kF6aUaS7',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\loose-envify': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.loose-envify-tE3EYus7',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\loose-envify': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.loose-envify-Vk3g8CNl',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\loose-envify.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.loose-envify.cmd-B3wpwavG',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\loose-envify.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.loose-envify.ps1-MVHAN1gD',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\miniflare': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.miniflare-1OfVtaaz',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\miniflare': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.miniflare-Tv0SFrA7',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\miniflare.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.miniflare.cmd-VIyL88k2',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\miniflare.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.miniflare.ps1-FeWVPyA1',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\napi-postinstall': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.napi-postinstall-GQvu9FNy',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\napi-postinstall': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.napi-postinstall-ZgXQZRHR',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\napi-postinstall.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.napi-postinstall.cmd-fQpeW9en',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\napi-postinstall.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.napi-postinstall.ps1-5joAkuJG',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\next': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.next-abGW5QRX',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\next': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.next-1DTGPQQN',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\next.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.next.cmd-pMUf1ktn',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\next.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.next.ps1-pdBfmHwf',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\resolve': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.resolve-adKBIdFq',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\resolve': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.resolve-rJm3f3oY',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\resolve.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.resolve.cmd-vqXk3feX',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\resolve.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.resolve.ps1-yHhYkUUu',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\rolldown': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.rolldown-Ixh0xEP8',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\rolldown': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.rolldown-4B5CMaSN',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\rolldown.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.rolldown.cmd-SHPTqtZT',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\rolldown.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.rolldown.ps1-ft8FjIeY',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\semver': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.semver-84NjXHUT',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\semver': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.semver-2Z332PfO',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\semver.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.semver.cmd-ap34GWZb',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\semver.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.semver.ps1-XG8Hu7us',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\sharp\\node_modules\\semver': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\sharp\\node_modules\\.semver-x9cyD8sb',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfck': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.tsconfck-5RKQC2tt',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsconfck': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsconfck-YriooHlE',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsconfck.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsconfck.cmd-Kdav6H0Q',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsconfck.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsconfck.ps1-Qi2iF1eR',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\json5': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.json5-O4r1Xupi',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5-yZzndUAW',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.cmd-eEQiKL9C',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\json5.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\tsconfig-paths\\node_modules\\.bin\\.json5.ps1-K6I1al7w',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\typescript': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.typescript-MwbWBRfa',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsc': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsc-nECvRlsb',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsc.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsc.cmd-6yCqijco',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsc.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsc.ps1-jO5Oow7l',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsserver': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsserver-BszaPmzH',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsserver.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsserver.cmd-EijHObh2',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\tsserver.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.tsserver.ps1-4uBMP59w',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\vinext': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.vinext-kjxIOS4E',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vinext': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.vinext-3JLkvqz4',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vinext.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.vinext.cmd-W8MbU7fE',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vinext.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.vinext.ps1-QJuHUhOG',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\update-browserslist-db': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.update-browserslist-db-wqVfyZfR',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\update-browserslist-db': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.update-browserslist-db-sY2qbPS8',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\update-browserslist-db.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.update-browserslist-db.cmd-oN6GbOdZ',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\update-browserslist-db.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.update-browserslist-db.ps1-Eh5lGxHH',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\vite': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.vite-NYurFTEn',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vite': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.vite-VytyQS0R',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vite.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.vite.cmd-k19O81Y6',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\vite.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.vite.ps1-gzv7mYQ2',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\which': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.which-W9TgofbK',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\node-which': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.node-which-O78Lr5OK',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\node-which.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.node-which.cmd-0IoKY8h9',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\node-which.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.node-which.ps1-6d596TEM',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\workerd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.workerd-w1k5KmJt',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\workerd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.workerd-Q4SKIB2w',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\workerd.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.workerd.cmd-f2nZYWEr',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\workerd.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.workerd.ps1-U5mPLBql',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\wrangler': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.wrangler-KmctO8B6',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.wrangler-GbkeSK8C',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.wrangler.cmd-EiN7HnVd',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.wrangler.ps1-7RFZc8Gr',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler2': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.wrangler2-K0XEwEBy',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler2.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.wrangler2.cmd-vyOcIi3F',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\wrangler2.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.wrangler2.ps1-d8q7zbO3',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\esbuild': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.esbuild-CrEOeWwm',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\.esbuild-TKqdNfdM',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\.esbuild.cmd-wACehVE8',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\esbuild.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@esbuild-kit\\core-utils\\node_modules\\.bin\\.esbuild.ps1-SbhTHugH',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\@shuding\\opentype.js': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\@shuding\\.opentype.js-ThHXnzOJ',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\ot': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.ot-VYAl8u7R',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\ot.cmd': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.ot.cmd-8isD1TXd',
+98 silly reify   'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\ot.ps1': 'D:\\Repos\\Portfolio_AO_World\\node_modules\\.bin\\.ot.ps1-h0wf7DKv'
+98 silly reify }
+99 silly audit bulk request {
+99 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+99 silly audit   '@babel/code-frame': [ '7.29.0' ],
+99 silly audit   '@babel/compat-data': [ '7.29.3' ],
+99 silly audit   '@babel/core': [ '7.29.0' ],
+99 silly audit   '@babel/generator': [ '7.29.1' ],
+99 silly audit   '@babel/helper-compilation-targets': [ '7.28.6' ],
+99 silly audit   '@babel/helper-globals': [ '7.28.0' ],
+99 silly audit   '@babel/helper-module-imports': [ '7.28.6' ],
+99 silly audit   '@babel/helper-module-transforms': [ '7.28.6' ],
+99 silly audit   '@babel/helper-string-parser': [ '7.27.1' ],
+99 silly audit   '@babel/helper-validator-identifier': [ '7.28.5' ],
+99 silly audit   '@babel/helper-validator-option': [ '7.27.1' ],
+99 silly audit   '@babel/helpers': [ '7.29.2' ],
+99 silly audit   '@babel/parser': [ '7.29.3' ],
+99 silly audit   '@babel/template': [ '7.28.6' ],
+99 silly audit   '@babel/traverse': [ '7.29.0' ],
+99 silly audit   '@babel/types': [ '7.29.0' ],
+99 silly audit   '@cloudflare/kv-asset-handler': [ '0.5.0' ],
+99 silly audit   '@cloudflare/unenv-preset': [ '2.16.1' ],
+99 silly audit   '@cloudflare/vite-plugin': [ '1.37.1' ],
+99 silly audit   '@cloudflare/workerd-darwin-64': [ '1.20260515.1' ],
+99 silly audit   '@cloudflare/workerd-darwin-arm64': [ '1.20260515.1' ],
+99 silly audit   '@cloudflare/workerd-linux-64': [ '1.20260515.1' ],
+99 silly audit   '@cloudflare/workerd-linux-arm64': [ '1.20260515.1' ],
+99 silly audit   '@cloudflare/workerd-windows-64': [ '1.20260515.1' ],
+99 silly audit   '@cspotcode/source-map-support': [ '0.8.1' ],
+99 silly audit   '@jridgewell/trace-mapping': [ '0.3.9', '0.3.31' ],
+99 silly audit   '@drizzle-team/brocli': [ '0.10.2' ],
+99 silly audit   '@emnapi/core': [ '1.10.0', '1.8.1' ],
+99 silly audit   '@emnapi/runtime': [ '1.10.0', '1.8.1' ],
+99 silly audit   '@emnapi/wasi-threads': [ '1.2.1', '1.1.0' ],
+99 silly audit   '@esbuild-kit/core-utils': [ '3.3.2' ],
+99 silly audit   '@esbuild/android-arm': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/android-arm64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/android-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/darwin-arm64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/darwin-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/freebsd-arm64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/freebsd-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-arm': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-arm64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-ia32': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-loong64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-mips64el': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-ppc64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-riscv64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-s390x': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/linux-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/netbsd-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/openbsd-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/sunos-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/win32-arm64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/win32-ia32': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/win32-x64': [ '0.18.20', '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   esbuild: [ '0.18.20', '0.25.12', '0.28.0', '0.27.3' ],
+99 silly audit   '@esbuild-kit/esm-loader': [ '2.6.5' ],
+99 silly audit   '@esbuild/aix-ppc64': [ '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/netbsd-arm64': [ '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/openbsd-arm64': [ '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@esbuild/openharmony-arm64': [ '0.28.0', '0.25.12', '0.27.3' ],
+99 silly audit   '@eslint-community/eslint-utils': [ '4.9.1' ],
+99 silly audit   'eslint-visitor-keys': [ '3.4.3', '5.0.1', '4.2.1' ],
+99 silly audit   '@eslint-community/regexpp': [ '4.12.2' ],
+99 silly audit   '@eslint/config-array': [ '0.21.2' ],
+99 silly audit   '@eslint/config-helpers': [ '0.4.2' ],
+99 silly audit   '@eslint/core': [ '0.17.0' ],
+99 silly audit   '@eslint/eslintrc': [ '3.3.5' ],
+99 silly audit   '@eslint/js': [ '9.39.4' ],
+99 silly audit   '@eslint/object-schema': [ '2.1.7' ],
+99 silly audit   '@eslint/plugin-kit': [ '0.4.1' ],
+99 silly audit   '@humanfs/core': [ '0.19.2' ],
+99 silly audit   '@humanfs/node': [ '0.16.8' ],
+99 silly audit   '@humanfs/types': [ '0.15.0' ],
+99 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+99 silly audit   '@humanwhocodes/retry': [ '0.4.3' ],
+99 silly audit   '@img/colour': [ '1.1.0' ],
+99 silly audit   '@img/sharp-darwin-arm64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-darwin-x64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linux-riscv64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.4' ],
+99 silly audit   '@img/sharp-linux-arm': [ '0.34.5' ],
+99 silly audit   '@img/sharp-linux-arm64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-linux-ppc64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-linux-riscv64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-linux-s390x': [ '0.34.5' ],
+99 silly audit   '@img/sharp-linux-x64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-wasm32': [ '0.34.5' ],
+99 silly audit   '@img/sharp-win32-arm64': [ '0.34.5' ],
+99 silly audit   '@img/sharp-win32-ia32': [ '0.34.5' ],
+99 silly audit   '@img/sharp-win32-x64': [ '0.34.5' ],
+99 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+99 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+99 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+99 silly audit   '@jridgewell/source-map': [ '0.3.11' ],
+99 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+99 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12', '1.1.4', '1.1.1' ],
+99 silly audit   '@next/env': [ '16.2.6' ],
+99 silly audit   '@next/eslint-plugin-next': [ '16.2.6' ],
+99 silly audit   '@next/swc-darwin-arm64': [ '16.2.6' ],
+99 silly audit   '@next/swc-darwin-x64': [ '16.2.6' ],
+99 silly audit   '@next/swc-linux-arm64-gnu': [ '16.2.6' ],
+99 silly audit   '@next/swc-linux-arm64-musl': [ '16.2.6' ],
+99 silly audit   '@next/swc-linux-x64-gnu': [ '16.2.6' ],
+99 silly audit   '@next/swc-linux-x64-musl': [ '16.2.6' ],
+99 silly audit   '@next/swc-win32-arm64-msvc': [ '16.2.6' ],
+99 silly audit   '@next/swc-win32-x64-msvc': [ '16.2.6' ],
+99 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+99 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+99 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+99 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+99 silly audit   '@oxc-project/types': [ '0.130.0' ],
+99 silly audit   '@poppinss/colors': [ '4.1.6' ],
+99 silly audit   '@poppinss/dumper': [ '0.6.5' ],
+99 silly audit   'supports-color': [ '10.2.2', '8.1.1', '7.2.0' ],
+99 silly audit   '@poppinss/exception': [ '1.2.3' ],
+99 silly audit   '@resvg/resvg-wasm': [ '2.4.0' ],
+99 silly audit   '@rolldown/binding-android-arm64': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-darwin-arm64': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-darwin-x64': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-freebsd-x64': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.0.1' ],
+99 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.0.1' ],
+99 silly audit   '@rolldown/pluginutils': [ '1.0.1', '1.0.0-rc.18' ],
+99 silly audit   '@rtsao/scc': [ '1.1.0' ],
+99 silly audit   '@shuding/opentype.js': [ '1.4.0-beta.0' ],
+99 silly audit   '@sindresorhus/is': [ '7.2.0' ],
+99 silly audit   '@speed-highlight/core': [ '1.2.15' ],
+99 silly audit   '@swc/helpers': [ '0.5.15' ],
+99 silly audit   '@tailwindcss/node': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.2.1' ],
+99 silly audit   '@tybys/wasm-util': [ '0.10.1', '0.10.2' ],
+99 silly audit   tslib: [ '2.8.1' ],
+99 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.2.1' ],
+99 silly audit   '@tailwindcss/postcss': [ '4.2.1' ],
+99 silly audit   '@types/eslint': [ '9.6.1' ],
+99 silly audit   '@types/eslint-scope': [ '3.7.7' ],
+99 silly audit   '@types/estree': [ '1.0.9' ],
+99 silly audit   '@types/json-schema': [ '7.0.15' ],
+99 silly audit   '@types/json5': [ '0.0.29' ],
+99 silly audit   '@types/node': [ '22.19.19' ],
+99 silly audit   '@types/react': [ '19.2.14' ],
+99 silly audit   '@types/react-dom': [ '19.2.3' ],
+99 silly audit   '@typescript-eslint/eslint-plugin': [ '8.59.3' ],
+99 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+99 silly audit   '@typescript-eslint/parser': [ '8.59.3' ],
+99 silly audit   '@typescript-eslint/project-service': [ '8.59.3' ],
+99 silly audit   '@typescript-eslint/scope-manager': [ '8.59.3' ],
+99 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.59.3' ],
+99 silly audit   '@typescript-eslint/type-utils': [ '8.59.3' ],
+99 silly audit   '@typescript-eslint/types': [ '8.59.3' ],
+99 silly audit   '@typescript-eslint/typescript-estree': [ '8.59.3' ],
+99 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+99 silly audit   'brace-expansion': [ '5.0.6', '1.1.14' ],
+99 silly audit   minimatch: [ '10.2.5', '3.1.5' ],
+99 silly audit   semver: [ '7.8.0', '6.3.1' ],
+99 silly audit   '@typescript-eslint/utils': [ '8.59.3' ],
+99 silly audit   '@typescript-eslint/visitor-keys': [ '8.59.3' ],
+99 silly audit   '@unpic/core': [ '1.0.3' ],
+99 silly audit   '@unpic/react': [ '1.0.2' ],
+99 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+99 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+99 silly audit   '@vercel/og': [ '0.8.6' ],
+99 silly audit   '@vitejs/plugin-react': [ '6.0.2' ],
+99 silly audit   '@vitejs/plugin-rsc': [ '0.5.26' ],
+99 silly audit   '@webassemblyjs/ast': [ '1.14.1' ],
+99 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.13.2' ],
+99 silly audit   '@webassemblyjs/helper-api-error': [ '1.13.2' ],
+99 silly audit   '@webassemblyjs/helper-buffer': [ '1.14.1' ],
+99 silly audit   '@webassemblyjs/helper-numbers': [ '1.13.2' ],
+99 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.13.2' ],
+99 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.14.1' ],
+99 silly audit   '@webassemblyjs/ieee754': [ '1.13.2' ],
+99 silly audit   '@webassemblyjs/leb128': [ '1.13.2' ],
+99 silly audit   '@webassemblyjs/utf8': [ '1.13.2' ],
+99 silly audit   '@webassemblyjs/wasm-edit': [ '1.14.1' ],
+99 silly audit   '@webassemblyjs/wasm-gen': [ '1.14.1' ],
+99 silly audit   '@webassemblyjs/wasm-opt': [ '1.14.1' ],
+99 silly audit   '@webassemblyjs/wasm-parser': [ '1.14.1' ],
+99 silly audit   '@webassemblyjs/wast-printer': [ '1.14.1' ],
+99 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+99 silly audit   '@xtuc/long': [ '4.2.2' ],
+99 silly audit   acorn: [ '8.16.0' ],
+99 silly audit   'acorn-import-phases': [ '1.0.4' ],
+99 silly audit   'acorn-jsx': [ '5.3.2' ],
+99 silly audit   'acorn-loose': [ '8.5.2' ],
+99 silly audit   ajv: [ '6.15.0', '8.20.0' ],
+99 silly audit   'ajv-formats': [ '2.1.1' ],
+99 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+99 silly audit   'ansi-styles': [ '4.3.0' ],
+99 silly audit   argparse: [ '2.0.1' ],
+99 silly audit   'aria-query': [ '5.3.2' ],
+99 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+99 silly audit   'array-includes': [ '3.1.9' ],
+99 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+99 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+99 silly audit   'array.prototype.flat': [ '1.3.3' ],
+99 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+99 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+99 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+99 silly audit   'ast-types-flow': [ '0.0.8' ],
+99 silly audit   'async-function': [ '1.0.0' ],
+99 silly audit   'available-typed-arrays': [ '1.0.7' ],
+99 silly audit   'axe-core': [ '4.11.4' ],
+99 silly audit   'axobject-query': [ '4.1.0' ],
+99 silly audit   'base64-js': [ '0.0.8' ],
+99 silly audit   'baseline-browser-mapping': [ '2.10.30' ],
+99 silly audit   'blake3-wasm': [ '2.1.5' ],
+99 silly audit   braces: [ '3.0.3' ],
+99 silly audit   browserslist: [ '4.28.2' ],
+99 silly audit   'buffer-from': [ '1.1.2' ],
+99 silly audit   'call-bind': [ '1.0.9' ],
+99 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+99 silly audit   'call-bound': [ '1.0.4' ],
+99 silly audit   callsites: [ '3.1.0' ],
+99 silly audit   camelize: [ '1.0.1' ],
+99 silly audit   'caniuse-lite': [ '1.0.30001793' ],
+99 silly audit   chalk: [ '4.1.2' ],
+99 silly audit   'chrome-trace-event': [ '1.0.4' ],
+99 silly audit   'client-only': [ '0.0.1' ],
+99 silly audit   'color-convert': [ '2.0.1' ],
+99 silly audit   'color-name': [ '1.1.4' ],
+99 silly audit   commander: [ '2.20.3' ],
+99 silly audit   'concat-map': [ '0.0.1' ],
+99 silly audit   'convert-source-map': [ '2.0.0' ],
+99 silly audit   cookie: [ '1.1.1' ],
+99 silly audit   'cross-spawn': [ '7.0.6' ],
+99 silly audit   'css-background-parser': [ '0.1.0' ],
+99 silly audit   'css-box-shadow': [ '1.0.0-3' ],
+99 silly audit   'css-color-keywords': [ '1.0.0' ],
+99 silly audit   'css-gradient-parser': [ '0.0.16' ],
+99 silly audit   'css-to-react-native': [ '3.2.0' ],
+99 silly audit   csstype: [ '3.2.3' ],
+99 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+99 silly audit   'data-view-buffer': [ '1.0.2' ],
+99 silly audit   'data-view-byte-length': [ '1.0.2' ],
+99 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+99 silly audit   debug: [ '4.4.3', '3.2.7' ],
+99 silly audit   'deep-is': [ '0.1.4' ],
+99 silly audit   'define-data-property': [ '1.1.4' ],
+99 silly audit   'define-properties': [ '1.2.1' ],
+99 silly audit   'detect-libc': [ '2.1.2' ],
+99 silly audit   doctrine: [ '2.1.0' ],
+99 silly audit   'drizzle-kit': [ '0.31.10' ],
+99 silly audit   'drizzle-orm': [ '0.45.2' ],
+99 silly audit   'dunder-proto': [ '1.0.1' ],
+99 silly audit   'electron-to-chromium': [ '1.5.358' ],
+99 silly audit   'emoji-regex': [ '9.2.2' ],
+99 silly audit   'emoji-regex-xs': [ '2.0.1' ],
+99 silly audit   'enhanced-resolve': [ '5.21.3' ],
+99 silly audit   'error-stack-parser-es': [ '1.0.5' ],
+99 silly audit   'es-abstract': [ '1.24.2' ],
+99 silly audit   'es-define-property': [ '1.0.1' ],
+99 silly audit   'es-errors': [ '1.3.0' ],
+99 silly audit   'es-iterator-helpers': [ '1.3.2' ],
+99 silly audit   'es-module-lexer': [ '2.1.0', '1.7.0' ],
+99 silly audit   'es-object-atoms': [ '1.1.1' ],
+99 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+99 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+99 silly audit   'es-to-primitive': [ '1.3.0' ],
+99 silly audit   escalade: [ '3.2.0' ],
+99 silly audit   'escape-html': [ '1.0.3' ],
+99 silly audit   'escape-string-regexp': [ '4.0.0' ],
+99 silly audit   eslint: [ '9.39.4' ],
+99 silly audit   'eslint-config-next': [ '16.2.6' ],
+99 silly audit   globals: [ '16.4.0', '14.0.0' ],
+99 silly audit   'eslint-import-resolver-node': [ '0.3.10' ],
+99 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+99 silly audit   'eslint-module-utils': [ '2.12.1' ],
+99 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+99 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+99 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+99 silly audit   'eslint-plugin-react-hooks': [ '7.1.1' ],
+99 silly audit   'eslint-scope': [ '8.4.0', '5.1.1' ],
+99 silly audit   espree: [ '10.4.0' ],
+99 silly audit   esquery: [ '1.7.0' ],
+99 silly audit   esrecurse: [ '4.3.0' ],
+99 silly audit   estraverse: [ '5.3.0', '4.3.0' ],
+99 silly audit   'estree-walker': [ '3.0.3' ],
+99 silly audit   esutils: [ '2.0.3' ],
+99 silly audit   events: [ '3.3.0' ],
+99 silly audit   'fast-deep-equal': [ '3.1.3' ],
+99 silly audit   'fast-glob': [ '3.3.1', '3.3.3' ],
+99 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+99 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+99 silly audit   'fast-levenshtein': [ '2.0.6' ],
+99 silly audit   'fast-uri': [ '3.1.2' ],
+99 silly audit   fastq: [ '1.20.1' ],
+99 silly audit   fflate: [ '0.7.4' ],
+99 silly audit   'file-entry-cache': [ '8.0.0' ],
+99 silly audit   'fill-range': [ '7.1.1' ],
+99 silly audit   'find-up': [ '5.0.0' ],
+99 silly audit   'flat-cache': [ '4.0.1' ],
+99 silly audit   flatted: [ '3.4.2' ],
+99 silly audit   'for-each': [ '0.3.5' ],
+99 silly audit   fsevents: [ '2.3.3' ],
+99 silly audit   'function-bind': [ '1.1.2' ],
+99 silly audit   'function.prototype.name': [ '1.1.8' ],
+99 silly audit   'functions-have-names': [ '1.2.3' ],
+99 silly audit   'generator-function': [ '2.0.1' ],
+99 silly audit   gensync: [ '1.0.0-beta.2' ],
+99 silly audit   'get-intrinsic': [ '1.3.0' ],
+99 silly audit   'get-proto': [ '1.0.1' ],
+99 silly audit   'get-symbol-description': [ '1.1.0' ],
+99 silly audit   'get-tsconfig': [ '4.14.0' ],
+99 silly audit   'glob-to-regexp': [ '0.4.1' ],
+99 silly audit   globalthis: [ '1.0.4' ],
+99 silly audit   globrex: [ '0.1.2' ],
+99 silly audit   gopd: [ '1.2.0' ],
+99 silly audit   'graceful-fs': [ '4.2.11' ],
+99 silly audit   'has-bigints': [ '1.1.0' ],
+99 silly audit   'has-flag': [ '4.0.0' ],
+99 silly audit   'has-property-descriptors': [ '1.0.2' ],
+99 silly audit   'has-proto': [ '1.2.0' ],
+99 silly audit   'has-symbols': [ '1.1.0' ],
+99 silly audit   'has-tostringtag': [ '1.0.2' ],
+99 silly audit   hasown: [ '2.0.3' ],
+99 silly audit   'hermes-estree': [ '0.25.1' ],
+99 silly audit   'hermes-parser': [ '0.25.1' ],
+99 silly audit   'hex-rgb': [ '4.3.0' ],
+99 silly audit   'image-size': [ '2.0.2' ],
+99 silly audit   'import-fresh': [ '3.3.1' ],
+99 silly audit   imurmurhash: [ '0.1.4' ],
+99 silly audit   'internal-slot': [ '1.1.0' ],
+99 silly audit   'ipaddr.js': [ '2.4.0' ],
+99 silly audit   'is-array-buffer': [ '3.0.5' ],
+99 silly audit   'is-async-function': [ '2.1.1' ],
+99 silly audit   'is-bigint': [ '1.1.0' ],
+99 silly audit   'is-boolean-object': [ '1.2.2' ],
+99 silly audit   'is-bun-module': [ '2.0.0' ],
+99 silly audit   'is-callable': [ '1.2.7' ],
+99 silly audit   'is-core-module': [ '2.16.2' ],
+99 silly audit   'is-data-view': [ '1.0.2' ],
+99 silly audit   'is-date-object': [ '1.1.0' ],
+99 silly audit   'is-extglob': [ '2.1.1' ],
+99 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+99 silly audit   'is-generator-function': [ '1.1.2' ],
+99 silly audit   'is-glob': [ '4.0.3' ],
+99 silly audit   'is-map': [ '2.0.3' ],
+99 silly audit   'is-negative-zero': [ '2.0.3' ],
+99 silly audit   'is-number': [ '7.0.0' ],
+99 silly audit   'is-number-object': [ '1.1.1' ],
+99 silly audit   'is-regex': [ '1.2.1' ],
+99 silly audit   'is-set': [ '2.0.3' ],
+99 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+99 silly audit   'is-string': [ '1.1.1' ],
+99 silly audit   'is-symbol': [ '1.1.1' ],
+99 silly audit   'is-typed-array': [ '1.1.15' ],
+99 silly audit   'is-weakmap': [ '2.0.2' ],
+99 silly audit   'is-weakref': [ '1.1.1' ],
+99 silly audit   'is-weakset': [ '2.0.4' ],
+99 silly audit   isarray: [ '2.0.5' ],
+99 silly audit   isexe: [ '2.0.0' ],
+99 silly audit   'iterator.prototype': [ '1.1.5' ],
+99 silly audit   'jest-worker': [ '27.5.1' ],
+99 silly audit   jiti: [ '2.7.0' ],
+99 silly audit   'js-tokens': [ '4.0.0', '9.0.1' ],
+99 silly audit   'js-yaml': [ '4.1.1' ],
+99 silly audit   jsesc: [ '3.1.0' ],
+99 silly audit   'json-buffer': [ '3.0.1' ],
+99 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+99 silly audit   json5: [ '2.2.3', '1.0.2' ],
+99 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+99 silly audit   keyv: [ '4.5.4' ],
+99 silly audit   kleur: [ '4.1.5' ],
+99 silly audit   'language-subtag-registry': [ '0.3.23' ],
+99 silly audit   'language-tags': [ '1.0.9' ],
+99 silly audit   levn: [ '0.4.1' ],
+99 silly audit   lightningcss: [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-android-arm64': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-darwin-arm64': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-darwin-x64': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-freebsd-x64': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-linux-arm64-gnu': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-linux-arm64-musl': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-linux-x64-gnu': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-linux-x64-musl': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-win32-arm64-msvc': [ '1.31.1', '1.32.0' ],
+99 silly audit   'lightningcss-win32-x64-msvc': [ '1.31.1', '1.32.0' ],
+99 silly audit   linebreak: [ '1.1.0' ],
+99 silly audit   'loader-runner': [ '4.3.2' ],
+99 silly audit   'locate-path': [ '6.0.0' ],
+99 silly audit   'lodash.merge': [ '4.6.2' ],
+99 silly audit   'loose-envify': [ '1.4.0' ],
+99 silly audit   'lru-cache': [ '5.1.1' ],
+99 silly audit   'magic-string': [ '0.30.21' ],
+99 silly audit   'math-intrinsics': [ '1.1.0' ],
+99 silly audit   'merge-stream': [ '2.0.0' ],
+99 silly audit   merge2: [ '1.4.1' ],
+99 silly audit   micromatch: [ '4.0.8' ],
+99 silly audit   'mime-db': [ '1.54.0' ],
+99 silly audit   miniflare: [ '4.20260515.0' ],
+99 silly audit   minimist: [ '1.2.8' ],
+99 silly audit   ms: [ '2.1.3' ],
+99 silly audit   nanoid: [ '3.3.12' ],
+99 silly audit   'napi-postinstall': [ '0.3.4' ],
+99 silly audit   'natural-compare': [ '1.4.0' ],
+99 silly audit   'neo-async': [ '2.6.2' ],
+99 silly audit   next: [ '16.2.6' ],
+99 silly audit   postcss: [ '8.4.31', '8.5.14' ],
+99 silly audit   'node-exports-info': [ '1.6.0' ],
+99 silly audit   'node-releases': [ '2.0.44' ],
+99 silly audit   'object-assign': [ '4.1.1' ],
+99 silly audit   'object-inspect': [ '1.13.4' ],
+99 silly audit   'object-keys': [ '1.1.1' ],
+99 silly audit   'object.assign': [ '4.1.7' ],
+99 silly audit   'object.entries': [ '1.1.9' ],
+99 silly audit   'object.fromentries': [ '2.0.8' ],
+99 silly audit   'object.groupby': [ '1.0.3' ],
+99 silly audit   'object.values': [ '1.2.1' ],
+99 silly audit   optionator: [ '0.9.4' ],
+99 silly audit   'own-keys': [ '1.0.1' ],
+99 silly audit   'p-limit': [ '3.1.0' ],
+99 silly audit   'p-locate': [ '5.0.0' ],
+99 silly audit   pako: [ '0.2.9' ],
+99 silly audit   'parent-module': [ '1.0.1' ],
+99 silly audit   'parse-css-color': [ '0.2.1' ],
+99 silly audit   'path-exists': [ '4.0.0' ],
+99 silly audit   'path-key': [ '3.1.1' ],
+99 silly audit   'path-parse': [ '1.0.7' ],
+99 silly audit   'path-to-regexp': [ '6.3.0' ],
+99 silly audit   pathe: [ '2.0.3' ],
+99 silly audit   picocolors: [ '1.1.1' ],
+99 silly audit   picomatch: [ '2.3.2', '4.0.4' ],
+99 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+99 silly audit   'postcss-value-parser': [ '4.2.0' ],
+99 silly audit   'prelude-ls': [ '1.2.1' ],
+99 silly audit   'prop-types': [ '15.8.1' ],
+99 silly audit   punycode: [ '2.3.1' ],
+99 silly audit   'queue-microtask': [ '1.2.3' ],
+99 silly audit   react: [ '19.2.6' ],
+99 silly audit   'react-dom': [ '19.2.6' ],
+99 silly audit   'react-is': [ '16.13.1' ],
+99 silly audit   'react-server-dom-webpack': [ '19.2.6' ],
+99 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+99 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+99 silly audit   'require-from-string': [ '2.0.2' ],
+99 silly audit   resolve: [ '2.0.0-next.7' ],
+99 silly audit   'resolve-from': [ '4.0.0' ],
+99 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+99 silly audit   reusify: [ '1.1.0' ],
+99 silly audit   rolldown: [ '1.0.1' ],
+99 silly audit   'run-parallel': [ '1.2.0' ],
+99 silly audit   'safe-array-concat': [ '1.1.4' ],
+99 silly audit   'safe-push-apply': [ '1.0.0' ],
+99 silly audit   'safe-regex-test': [ '1.1.0' ],
+99 silly audit   satori: [ '0.16.0' ],
+99 silly audit   scheduler: [ '0.27.0' ],
+99 silly audit   'schema-utils': [ '4.3.3' ],
+99 silly audit   'ajv-keywords': [ '5.1.0' ],
+99 silly audit   'set-function-length': [ '1.2.2' ],
+99 silly audit   'set-function-name': [ '2.0.2' ],
+99 silly audit   'set-proto': [ '1.0.0' ],
+99 silly audit   sharp: [ '0.34.5' ],
+99 silly audit   'shebang-command': [ '2.0.0' ],
+99 silly audit   'shebang-regex': [ '3.0.0' ],
+99 silly audit   'side-channel': [ '1.1.0' ],
+99 silly audit   'side-channel-list': [ '1.0.1' ],
+99 silly audit   'side-channel-map': [ '1.0.1' ],
+99 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+99 silly audit   'source-map': [ '0.6.1' ],
+99 silly audit   'source-map-js': [ '1.2.1' ],
+99 silly audit   'source-map-support': [ '0.5.21' ],
+99 silly audit   srvx: [ '0.11.15' ],
+99 silly audit   'stable-hash': [ '0.0.5' ],
+99 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+99 silly audit   'string.prototype.codepointat': [ '0.2.1' ],
+99 silly audit   'string.prototype.includes': [ '2.0.1' ],
+99 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+99 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+99 silly audit   'string.prototype.trim': [ '1.2.10' ],
+99 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+99 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+99 silly audit   'strip-bom': [ '3.0.0' ],
+99 silly audit   'strip-json-comments': [ '3.1.1' ],
+99 silly audit   'strip-literal': [ '3.1.0' ],
+99 silly audit   'styled-jsx': [ '5.1.6' ],
+99 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+99 silly audit   tailwindcss: [ '4.2.1' ],
+99 silly audit   tapable: [ '2.3.3' ],
+99 silly audit   terser: [ '5.47.1' ],
+99 silly audit   'terser-webpack-plugin': [ '5.6.0' ],
+99 silly audit   three: [ '0.180.0' ],
+99 silly audit   'tiny-inflate': [ '1.0.3' ],
+99 silly audit   tinyglobby: [ '0.2.16' ],
+99 silly audit   fdir: [ '6.5.0' ],
+99 silly audit   'to-regex-range': [ '5.0.1' ],
+99 silly audit   'ts-api-utils': [ '2.5.0' ],
+99 silly audit   tsconfck: [ '3.1.6' ],
+99 silly audit   'tsconfig-paths': [ '3.15.0' ],
+99 silly audit   tsx: [ '4.22.1' ],
+99 silly audit   'turbo-stream': [ '3.2.0' ],
+99 silly audit   'type-check': [ '0.4.0' ],
+99 silly audit   'typed-array-buffer': [ '1.0.3' ],
+99 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+99 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+99 silly audit   'typed-array-length': [ '1.0.7' ],
+99 silly audit   typescript: [ '5.9.3' ],
+99 silly audit   'typescript-eslint': [ '8.59.3' ],
+99 silly audit   'unbox-primitive': [ '1.1.0' ],
+99 silly audit   undici: [ '7.24.8' ],
+99 silly audit   'undici-types': [ '6.21.0' ],
+99 silly audit   unenv: [ '2.0.0-rc.24' ],
+99 silly audit   'unicode-trie': [ '2.0.0' ],
+99 silly audit   unpic: [ '4.2.2' ],
+99 silly audit   'unrs-resolver': [ '1.11.1' ],
+99 silly audit   'update-browserslist-db': [ '1.2.3' ],
+99 silly audit   'uri-js': [ '4.4.1' ],
+99 silly audit   vinext: [ '0.0.50' ],
+99 silly audit   vite: [ '8.0.13' ],
+99 silly audit   'vite-plugin-commonjs': [ '0.10.4' ],
+99 silly audit   'vite-plugin-dynamic-import': [ '1.6.0' ],
+99 silly audit   'vite-tsconfig-paths': [ '6.1.1' ],
+99 silly audit   vitefu: [ '1.1.3' ],
+99 silly audit   watchpack: [ '2.5.1' ],
+99 silly audit   'web-vitals': [ '4.2.4' ],
+99 silly audit   webpack: [ '5.106.2' ],
+99 silly audit   'webpack-sources': [ '3.4.1' ],
+99 silly audit   which: [ '2.0.2' ],
+99 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+99 silly audit   'which-builtin-type': [ '1.2.1' ],
+99 silly audit   'which-collection': [ '1.0.2' ],
+99 silly audit   'which-typed-array': [ '1.1.20' ],
+99 silly audit   'word-wrap': [ '1.2.5' ],
+99 silly audit   workerd: [ '1.20260515.1' ],
+99 silly audit   wrangler: [ '4.92.0' ],
+99 silly audit   ws: [ '8.18.0' ],
+99 silly audit   yallist: [ '3.1.1' ],
+99 silly audit   'yocto-queue': [ '0.1.0' ],
+99 silly audit   'yoga-layout': [ '3.2.1' ],
+99 silly audit   youch: [ '4.1.0-beta.10' ],
+99 silly audit   'youch-core': [ '0.3.3' ],
+99 silly audit   zod: [ '4.4.3' ],
+99 silly audit   'zod-validation-error': [ '4.0.2' ]
+99 silly audit }
+100 http cache @shuding/opentype.js@https://registry.npmjs.org/@shuding/opentype.js/-/opentype.js-1.4.0-beta.0.tgz 1ms (cache hit)
+101 http cache wrangler@https://registry.npmjs.org/wrangler/-/wrangler-4.92.0.tgz 0ms (cache hit)
+102 http cache vite@https://registry.npmjs.org/vite/-/vite-8.0.13.tgz 0ms (cache hit)
+103 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 1ms (cache hit)
+104 http cache workerd@https://registry.npmjs.org/workerd/-/workerd-1.20260515.1.tgz 0ms (cache hit)
+105 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 0ms (cache hit)
+106 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 0ms (cache hit)
+107 http cache vinext@https://registry.npmjs.org/vinext/-/vinext-0.0.50.tgz 0ms (cache hit)
+108 http cache tsconfck@https://registry.npmjs.org/tsconfck/-/tsconfck-3.1.6.tgz 0ms (cache hit)
+109 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+110 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz 0ms (cache hit)
+111 http cache next@https://registry.npmjs.org/next/-/next-16.2.6.tgz 0ms (cache hit)
+112 http cache rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz 0ms (cache hit)
+113 http cache napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz 0ms (cache hit)
+114 http cache miniflare@https://registry.npmjs.org/miniflare/-/miniflare-4.20260515.0.tgz 0ms (cache hit)
+115 http cache loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 0ms (cache hit)
+116 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz 0ms (cache hit)
+117 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 0ms (cache hit)
+118 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+119 http cache image-size@https://registry.npmjs.org/image-size/-/image-size-2.0.2.tgz 0ms (cache hit)
+120 http cache @unrs/resolver-binding-win32-x64-msvc@https://registry.npmjs.org/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz 0ms (cache hit)
+121 http cache eslint@https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz 0ms (cache hit)
+122 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 0ms (cache hit)
+123 http cache @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.3.tgz 0ms (cache hit)
+124 http cache drizzle-kit@https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.10.tgz 0ms (cache hit)
+125 http cache @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.59.3.tgz 0ms (cache hit)
+126 http cache @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.3.tgz 0ms (cache hit)
+127 http cache @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.59.3.tgz 0ms (cache hit)
+128 http cache @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.59.3.tgz 0ms (cache hit)
+129 http cache @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.59.3.tgz 0ms (cache hit)
+130 http cache @speed-highlight/core@https://registry.npmjs.org/@speed-highlight/core/-/core-1.2.15.tgz 0ms (cache hit)
+131 http cache @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.59.3.tgz 0ms (cache hit)
+132 http cache @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.59.3.tgz 0ms (cache hit)
+133 http cache @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz 0ms (cache hit)
+134 http cache @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.59.3.tgz 0ms (cache hit)
+135 http cache @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.59.3.tgz 0ms (cache hit)
+136 http cache @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.5.tgz 0ms (cache hit)
+137 http cache @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz 0ms (cache hit)
+138 http cache @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz 0ms (cache hit)
+139 http cache which-typed-array@https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.20.tgz 0ms (cache hit)
+140 http cache @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.0.tgz 0ms (cache hit)
+141 http cache @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.3.tgz 0ms (cache hit)
+142 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz 0ms (cache hit)
+143 http cache webpack-sources@https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.4.1.tgz 0ms (cache hit)
+144 http cache typescript-eslint@https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.59.3.tgz 0ms (cache hit)
+145 http cache unrs-resolver@https://registry.npmjs.org/unrs-resolver/-/unrs-resolver-1.11.1.tgz 0ms (cache hit)
+146 http cache typed-array-length@https://registry.npmjs.org/typed-array-length/-/typed-array-length-1.0.7.tgz 0ms (cache hit)
+147 http cache webpack@https://registry.npmjs.org/webpack/-/webpack-5.106.2.tgz 0ms (cache hit)
+148 http cache tsx@https://registry.npmjs.org/tsx/-/tsx-4.22.1.tgz 0ms (cache hit)
+149 http cache three@https://registry.npmjs.org/three/-/three-0.180.0.tgz 0ms (cache hit)
+150 http cache terser@https://registry.npmjs.org/terser/-/terser-5.47.1.tgz 0ms (cache hit)
+151 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz 0ms (cache hit)
+152 http cache terser-webpack-plugin@https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.6.0.tgz 0ms (cache hit)
+153 http cache string.prototype.trimend@https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.9.tgz 0ms (cache hit)
+154 http cache srvx@https://registry.npmjs.org/srvx/-/srvx-0.11.15.tgz 0ms (cache hit)
+155 http cache string.prototype.trim@https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.10.tgz 0ms (cache hit)
+156 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.14.tgz 0ms (cache hit)
+157 http cache own-keys@https://registry.npmjs.org/own-keys/-/own-keys-1.0.1.tgz 0ms (cache hit)
+158 http cache node-exports-info@https://registry.npmjs.org/node-exports-info/-/node-exports-info-1.6.0.tgz 0ms (cache hit)
+159 http cache node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.44.tgz 0ms (cache hit)
+160 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 0ms (cache hit)
+161 http cache loader-runner@https://registry.npmjs.org/loader-runner/-/loader-runner-4.3.2.tgz 0ms (cache hit)
+162 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+163 http cache hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.3.tgz 0ms (cache hit)
+164 http cache fflate@https://registry.npmjs.org/fflate/-/fflate-0.7.4.tgz 0ms (cache hit)
+165 http cache function.prototype.name@https://registry.npmjs.org/function.prototype.name/-/function.prototype.name-1.1.8.tgz 0ms (cache hit)
+166 http cache fast-uri@https://registry.npmjs.org/fast-uri/-/fast-uri-3.1.2.tgz 0ms (cache hit)
+167 http cache eslint-module-utils@https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.12.1.tgz 0ms (cache hit)
+168 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.28.0.tgz 0ms (cache hit)
+169 http cache es-to-primitive@https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.3.0.tgz 0ms (cache hit)
+170 http cache es-module-lexer@https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.1.0.tgz 0ms (cache hit)
+171 http cache es-iterator-helpers@https://registry.npmjs.org/es-iterator-helpers/-/es-iterator-helpers-1.3.2.tgz 0ms (cache hit)
+172 http cache enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.21.3.tgz 0ms (cache hit)
+173 http cache electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.358.tgz 0ms (cache hit)
+174 http cache caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001793.tgz 0ms (cache hit)
+175 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz 0ms (cache hit)
+176 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz 0ms (cache hit)
+177 http cache lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz 0ms (cache hit)
+178 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.3.tgz 0ms (cache hit)
+179 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz 0ms (cache hit)
+180 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.30.tgz 0ms (cache hit)
+181 http cache axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.11.4.tgz 0ms (cache hit)
+182 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+183 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 0ms (cache hit)
+184 http cache json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz 0ms (cache hit)
+185 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 0ms (cache hit)
+186 http cache lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz 0ms (cache hit)
+187 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 0ms (cache hit)
+188 http cache semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz 0ms (cache hit)
+189 http cache ignore@https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz 0ms (cache hit)
+190 http cache brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.6.tgz 0ms (cache hit)
+191 silly tarball no local data for @shuding/opentype.js@https://registry.npmjs.org/@shuding/opentype.js/-/opentype.js-1.4.0-beta.0.tgz. Extracting by manifest.
+192 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz 0ms (cache hit)
+193 silly tarball no local data for wrangler@https://registry.npmjs.org/wrangler/-/wrangler-4.92.0.tgz. Extracting by manifest.
+194 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-8.0.13.tgz. Extracting by manifest.
+195 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+196 silly tarball no local data for workerd@https://registry.npmjs.org/workerd/-/workerd-1.20260515.1.tgz. Extracting by manifest.
+197 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz. Extracting by manifest.
+198 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+199 silly tarball no local data for vinext@https://registry.npmjs.org/vinext/-/vinext-0.0.50.tgz. Extracting by manifest.
+200 silly tarball no local data for tsconfck@https://registry.npmjs.org/tsconfck/-/tsconfck-3.1.6.tgz. Extracting by manifest.
+201 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+202 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz. Extracting by manifest.
+203 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-16.2.6.tgz. Extracting by manifest.
+204 silly tarball no local data for rolldown@https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz. Extracting by manifest.
+205 silly tarball no local data for napi-postinstall@https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz. Extracting by manifest.
+206 silly tarball no local data for miniflare@https://registry.npmjs.org/miniflare/-/miniflare-4.20260515.0.tgz. Extracting by manifest.
+207 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+208 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-2.7.0.tgz. Extracting by manifest.
+209 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+210 silly tarball no local data for jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+211 silly tarball no local data for image-size@https://registry.npmjs.org/image-size/-/image-size-2.0.2.tgz. Extracting by manifest.
+212 silly tarball no local data for @unrs/resolver-binding-win32-x64-msvc@https://registry.npmjs.org/@unrs/resolver-binding-win32-x64-msvc/-/resolver-binding-win32-x64-msvc-1.11.1.tgz. Extracting by manifest.
+213 silly tarball no local data for eslint@https://registry.npmjs.org/eslint/-/eslint-9.39.4.tgz. Extracting by manifest.
+214 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz. Extracting by manifest.
+215 silly tarball no local data for @typescript-eslint/visitor-keys@https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-8.59.3.tgz. Extracting by manifest.
+216 silly tarball no local data for drizzle-kit@https://registry.npmjs.org/drizzle-kit/-/drizzle-kit-0.31.10.tgz. Extracting by manifest.
+217 silly tarball no local data for @typescript-eslint/tsconfig-utils@https://registry.npmjs.org/@typescript-eslint/tsconfig-utils/-/tsconfig-utils-8.59.3.tgz. Extracting by manifest.
+218 silly tarball no local data for @typescript-eslint/typescript-estree@https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-8.59.3.tgz. Extracting by manifest.
+219 silly tarball no local data for @typescript-eslint/type-utils@https://registry.npmjs.org/@typescript-eslint/type-utils/-/type-utils-8.59.3.tgz. Extracting by manifest.
+220 silly tarball no local data for @typescript-eslint/types@https://registry.npmjs.org/@typescript-eslint/types/-/types-8.59.3.tgz. Extracting by manifest.
+221 silly tarball no local data for @typescript-eslint/utils@https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.59.3.tgz. Extracting by manifest.
+222 silly tarball no local data for @speed-highlight/core@https://registry.npmjs.org/@speed-highlight/core/-/core-1.2.15.tgz. Extracting by manifest.
+223 silly tarball no local data for @typescript-eslint/parser@https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.59.3.tgz. Extracting by manifest.
+224 silly tarball no local data for @typescript-eslint/scope-manager@https://registry.npmjs.org/@typescript-eslint/scope-manager/-/scope-manager-8.59.3.tgz. Extracting by manifest.
+225 silly tarball no local data for @tybys/wasm-util@https://registry.npmjs.org/@tybys/wasm-util/-/wasm-util-0.10.2.tgz. Extracting by manifest.
+226 silly tarball no local data for @typescript-eslint/project-service@https://registry.npmjs.org/@typescript-eslint/project-service/-/project-service-8.59.3.tgz. Extracting by manifest.
+227 silly tarball no local data for @typescript-eslint/eslint-plugin@https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-8.59.3.tgz. Extracting by manifest.
+228 silly tarball no local data for @eslint/eslintrc@https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-3.3.5.tgz. Extracting by manifest.
+229 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.10.0.tgz. Extracting by manifest.
+230 silly tarball no local data for @babel/helpers@https://registry.npmjs.org/@babel/helpers/-/helpers-7.29.2.tgz. Extracting by manifest.
+231 silly tarball no local data for which-typed-array@https://registry.npmjs.org/which-typed-array/-/which-typed-array-1.1.20.tgz. Extracting by manifest.
+232 silly tarball no local data for @esbuild/win32-x64@https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.0.tgz. Extracting by manifest.
+233 silly tarball no local data for @babel/compat-data@https://registry.npmjs.org/@babel/compat-data/-/compat-data-7.29.3.tgz. Extracting by manifest.
+234 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.3.tgz. Extracting by manifest.
+235 silly tarball no local data for webpack-sources@https://registry.npmjs.org/webpack-sources/-/webpack-sources-3.4.1.tgz. Extracting by manifest.
+236 silly tarball no local data for typescript-eslint@https://registry.npmjs.org/typescript-eslint/-/typescript-eslint-8.59.3.tgz. Extracting by manifest.
+237 silly tarball no local data for unrs-resolver@https://registry.npmjs.org/unrs-resolver/-/unrs-resolver-1.11.1.tgz. Extracting by manifest.
+238 silly tarball no local data for typed-array-length@https://registry.npmjs.org/typed-array-length/-/typed-array-length-1.0.7.tgz. Extracting by manifest.
+239 silly tarball no local data for webpack@https://registry.npmjs.org/webpack/-/webpack-5.106.2.tgz. Extracting by manifest.
+240 silly tarball no local data for tsx@https://registry.npmjs.org/tsx/-/tsx-4.22.1.tgz. Extracting by manifest.
+241 silly tarball no local data for three@https://registry.npmjs.org/three/-/three-0.180.0.tgz. Extracting by manifest.
+242 silly tarball no local data for terser@https://registry.npmjs.org/terser/-/terser-5.47.1.tgz. Extracting by manifest.
+243 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.16.tgz. Extracting by manifest.
+244 silly tarball no local data for terser-webpack-plugin@https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.6.0.tgz. Extracting by manifest.
+245 silly tarball no local data for string.prototype.trimend@https://registry.npmjs.org/string.prototype.trimend/-/string.prototype.trimend-1.0.9.tgz. Extracting by manifest.
+246 silly tarball no local data for srvx@https://registry.npmjs.org/srvx/-/srvx-0.11.15.tgz. Extracting by manifest.
+247 silly tarball no local data for string.prototype.trim@https://registry.npmjs.org/string.prototype.trim/-/string.prototype.trim-1.2.10.tgz. Extracting by manifest.
+248 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.14.tgz. Extracting by manifest.
+249 silly tarball no local data for own-keys@https://registry.npmjs.org/own-keys/-/own-keys-1.0.1.tgz. Extracting by manifest.
+250 silly tarball no local data for node-exports-info@https://registry.npmjs.org/node-exports-info/-/node-exports-info-1.6.0.tgz. Extracting by manifest.
+251 silly tarball no local data for node-releases@https://registry.npmjs.org/node-releases/-/node-releases-2.0.44.tgz. Extracting by manifest.
+252 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz. Extracting by manifest.
+253 silly tarball no local data for loader-runner@https://registry.npmjs.org/loader-runner/-/loader-runner-4.3.2.tgz. Extracting by manifest.
+254 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz. Extracting by manifest.
+255 silly tarball no local data for hasown@https://registry.npmjs.org/hasown/-/hasown-2.0.3.tgz. Extracting by manifest.
+256 silly tarball no local data for fflate@https://registry.npmjs.org/fflate/-/fflate-0.7.4.tgz. Extracting by manifest.
+257 silly tarball no local data for function.prototype.name@https://registry.npmjs.org/function.prototype.name/-/function.prototype.name-1.1.8.tgz. Extracting by manifest.
+258 silly tarball no local data for fast-uri@https://registry.npmjs.org/fast-uri/-/fast-uri-3.1.2.tgz. Extracting by manifest.
+259 silly tarball no local data for eslint-module-utils@https://registry.npmjs.org/eslint-module-utils/-/eslint-module-utils-2.12.1.tgz. Extracting by manifest.
+260 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.28.0.tgz. Extracting by manifest.
+261 silly tarball no local data for es-to-primitive@https://registry.npmjs.org/es-to-primitive/-/es-to-primitive-1.3.0.tgz. Extracting by manifest.
+262 silly tarball no local data for es-module-lexer@https://registry.npmjs.org/es-module-lexer/-/es-module-lexer-2.1.0.tgz. Extracting by manifest.
+263 silly tarball no local data for es-iterator-helpers@https://registry.npmjs.org/es-iterator-helpers/-/es-iterator-helpers-1.3.2.tgz. Extracting by manifest.
+264 silly tarball no local data for enhanced-resolve@https://registry.npmjs.org/enhanced-resolve/-/enhanced-resolve-5.21.3.tgz. Extracting by manifest.
+265 silly tarball no local data for electron-to-chromium@https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.5.358.tgz. Extracting by manifest.
+266 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001793.tgz. Extracting by manifest.
+267 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz. Extracting by manifest.
+268 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz. Extracting by manifest.
+269 silly tarball no local data for lightningcss@https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz. Extracting by manifest.
+270 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.27.3.tgz. Extracting by manifest.
+271 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.14.tgz. Extracting by manifest.
+272 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.30.tgz. Extracting by manifest.
+273 silly tarball no local data for axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.11.4.tgz. Extracting by manifest.
+274 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+275 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz. Extracting by manifest.
+276 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-1.0.2.tgz. Extracting by manifest.
+277 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz. Extracting by manifest.
+278 silly tarball no local data for lightningcss-win32-x64-msvc@https://registry.npmjs.org/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.32.0.tgz. Extracting by manifest.
+279 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz. Extracting by manifest.
+280 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.8.0.tgz. Extracting by manifest.
+281 silly tarball no local data for ignore@https://registry.npmjs.org/ignore/-/ignore-7.0.5.tgz. Extracting by manifest.
+282 silly tarball no local data for brace-expansion@https://registry.npmjs.org/brace-expansion/-/brace-expansion-5.0.6.tgz. Extracting by manifest.
+283 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.4.tgz. Extracting by manifest.
+284 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/advisories/bulk failed, reason: 
+284 verbose audit error     at ClientRequest.<anonymous> (C:\Users\sidat\AppData\Roaming\npm\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+284 verbose audit error     at ClientRequest.emit (node:events:508:28)
+284 verbose audit error     at emitErrorEvent (node:_http_client:108:11)
+284 verbose audit error     at _destroy (node:_http_client:963:9)
+284 verbose audit error     at onSocketNT (node:_http_client:983:5)
+284 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+284 verbose audit error   code: 'EACCES',
+284 verbose audit error   errno: 'EACCES',
+284 verbose audit error   type: 'system'
+284 verbose audit error }
+285 silly audit error undefined
+286 silly audit report null
+287 http fetch GET https://registry.npmjs.org/@shuding/opentype.js/-/opentype.js-1.4.0-beta.0.tgz attempt 1 failed with EACCES
+288 http fetch GET https://registry.npmjs.org/wrangler/-/wrangler-4.92.0.tgz attempt 1 failed with EACCES
+289 http fetch GET https://registry.npmjs.org/vite/-/vite-8.0.13.tgz attempt 1 failed with EACCES
+290 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 1 failed with EACCES
+291 http fetch GET https://registry.npmjs.org/workerd/-/workerd-1.20260515.1.tgz attempt 1 failed with EACCES
+292 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 1 failed with EACCES
+293 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 1 failed with EACCES
+294 http fetch GET https://registry.npmjs.org/vinext/-/vinext-0.0.50.tgz attempt 1 failed with EACCES
+295 http fetch GET https://registry.npmjs.org/tsconfck/-/tsconfck-3.1.6.tgz attempt 1 failed with EACCES
+296 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 1 failed with EACCES
+297 http fetch GET https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz attempt 1 failed with EACCES
+298 http fetch GET https://registry.npmjs.org/next/-/next-16.2.6.tgz attempt 1 failed with EACCES
+299 http fetch GET https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz attempt 1 failed with EACCES
+300 http fetch GET https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 1 failed with EACCES
+301 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+302 http fetch GET https://registry.npmjs.org/@shuding/opentype.js/-/opentype.js-1.4.0-beta.0.tgz attempt 2 failed with EACCES
+303 http fetch GET https://registry.npmjs.org/wrangler/-/wrangler-4.92.0.tgz attempt 2 failed with EACCES
+304 http fetch GET https://registry.npmjs.org/vite/-/vite-8.0.13.tgz attempt 2 failed with EACCES
+305 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 2 failed with EACCES
+306 http fetch GET https://registry.npmjs.org/workerd/-/workerd-1.20260515.1.tgz attempt 2 failed with EACCES
+307 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 2 failed with EACCES
+308 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 2 failed with EACCES
+309 http fetch GET https://registry.npmjs.org/vinext/-/vinext-0.0.50.tgz attempt 2 failed with EACCES
+310 http fetch GET https://registry.npmjs.org/tsconfck/-/tsconfck-3.1.6.tgz attempt 2 failed with EACCES
+311 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 2 failed with EACCES
+312 http fetch GET https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz attempt 2 failed with EACCES
+313 http fetch GET https://registry.npmjs.org/next/-/next-16.2.6.tgz attempt 2 failed with EACCES
+314 http fetch GET https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz attempt 2 failed with EACCES
+315 http fetch GET https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 2 failed with EACCES
+316 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+317 http fetch GET https://registry.npmjs.org/@shuding/opentype.js/-/opentype.js-1.4.0-beta.0.tgz attempt 3 failed with EACCES
+318 http fetch GET https://registry.npmjs.org/wrangler/-/wrangler-4.92.0.tgz attempt 3 failed with EACCES
+319 http fetch GET https://registry.npmjs.org/vite/-/vite-8.0.13.tgz attempt 3 failed with EACCES
+320 http fetch GET https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz attempt 3 failed with EACCES
+321 http fetch GET https://registry.npmjs.org/workerd/-/workerd-1.20260515.1.tgz attempt 3 failed with EACCES
+322 http fetch GET https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz attempt 3 failed with EACCES
+323 http fetch GET https://registry.npmjs.org/which/-/which-2.0.2.tgz attempt 3 failed with EACCES
+324 http fetch GET https://registry.npmjs.org/vinext/-/vinext-0.0.50.tgz attempt 3 failed with EACCES
+325 http fetch GET https://registry.npmjs.org/tsconfck/-/tsconfck-3.1.6.tgz attempt 3 failed with EACCES
+326 http fetch GET https://registry.npmjs.org/semver/-/semver-6.3.1.tgz attempt 3 failed with EACCES
+327 http fetch GET https://registry.npmjs.org/resolve/-/resolve-2.0.0-next.7.tgz attempt 3 failed with EACCES
+328 http fetch GET https://registry.npmjs.org/next/-/next-16.2.6.tgz attempt 3 failed with EACCES
+329 http fetch GET https://registry.npmjs.org/rolldown/-/rolldown-1.0.1.tgz attempt 3 failed with EACCES
+330 http fetch GET https://registry.npmjs.org/napi-postinstall/-/napi-postinstall-0.3.4.tgz attempt 3 failed with EACCES
+331 verbose cwd D:\Repos\Portfolio_AO_World
+332 verbose os Windows_NT 10.0.26200
+333 verbose node v24.14.0
+334 verbose npm  v11.11.1
+335 error Exit handler never called!
+336 error This is an error with npm itself. Please report this error at:
+337 error   <https://github.com/npm/cli/issues>
+338 verbose exit 1
+339 verbose code 1
+340 error A complete log of this run can be found in: D:\Repos\Portfolio_AO_World\.npm-cache\_logs\2026-08-01T05_02_07_683Z-debug-0.log
