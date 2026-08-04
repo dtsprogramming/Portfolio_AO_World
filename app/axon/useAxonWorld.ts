@@ -25,7 +25,7 @@ import { createTraversalFactories } from "./createTraversalFactories";
  * platforms, collectible animation, and teardown. React retains UI state only.
  */
 export function useAxonWorld({
-  progressionHydrated,
+  restoredAbilities,
   audioRef,
   abilitiesRef,
   completedMachinesRef,
@@ -55,7 +55,7 @@ export function useAxonWorld({
   onCoreRewardStart,
   onCoreRewardComplete,
 }: {
-  progressionHydrated: boolean;
+  restoredAbilities: Ability[] | null;
   audioRef: RefObject<AxonAudio>;
   abilitiesRef: RefObject<Set<Ability>>;
   completedMachinesRef: RefObject<Set<string>>;
@@ -105,7 +105,10 @@ export function useAxonWorld({
   };
 
   useEffect(() => {
-    if (!progressionHydrated) return;
+    if (restoredAbilities === null) return;
+    // Seed the mutable gameplay mirror from the immutable hydration snapshot.
+    // This guarantees that materials and canvas textures see the saved state.
+    abilitiesRef.current = new Set(restoredAbilities);
     const mount = mountRef.current;
     if (!mount) return;
     const scene = new THREE.Scene();
@@ -1611,7 +1614,7 @@ export function useAxonWorld({
       runtime.current = null;
     };
   }, [
-    progressionHydrated,
+    restoredAbilities,
     abilitiesRef,
     audioRef,
     collectedMachineRewardsRef,
