@@ -435,7 +435,11 @@ export function AxonExperience() {
           <span>
             SCAN
             <br />
-            <b>{scanSites.find((site) => site.id === nearest)?.name}</b>
+            <b>
+              {nearest === "future" && coreReward
+                ? "PRISM PULSE RANGE"
+                : scanSites.find((site) => site.id === nearest)?.name}
+            </b>
           </span>
         </button>
       )}
