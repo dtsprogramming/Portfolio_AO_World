@@ -58,6 +58,7 @@ export function AxonExperience() {
   const [panel, setPanel] = useState<string | null>(null);
   const [scanning, setScanning] = useState<string | null>(null);
   const {
+    progressionHydrated,
     abilities, abilitiesRef, setAbilities,
     powerPieces, setPowerPieces,
     coreReward, setCoreReward,
@@ -103,6 +104,7 @@ export function AxonExperience() {
     [setShowCoreReward],
   );
   const { mountRef, runtime, galleryHud } = useAxonWorld({
+    progressionHydrated,
     audioRef,
     abilitiesRef,
     completedMachinesRef,

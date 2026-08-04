@@ -7,6 +7,7 @@ import type { Ability } from "./types";
  * without forcing the Three.js world to rebuild after every pickup.
  */
 export function useProgression() {
+  const [progressionHydrated, setProgressionHydrated] = useState(false);
   const [powerPieces, setPowerPieces] = useState(0);
   const [coreReward, setCoreReward] = useState(false);
   const [showCoreReward, setShowCoreReward] = useState(false);
@@ -68,9 +69,13 @@ export function useProgression() {
                 ? "Locate CMOS-02 along the western bus."
                 : "Locate CMOS-01 on the main signal bus.",
         );
+        setProgressionHydrated(true);
       });
     } catch {
       // Invalid local saves fall back to a clean progression state.
+      queueMicrotask(() => {
+        if (!cancelled) setProgressionHydrated(true);
+      });
     }
     return () => {
       cancelled = true;
@@ -78,6 +83,7 @@ export function useProgression() {
   }, []);
 
   return {
+    progressionHydrated,
     abilities,
     abilitiesRef,
     setAbilities,

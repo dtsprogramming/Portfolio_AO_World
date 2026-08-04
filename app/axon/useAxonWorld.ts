@@ -25,6 +25,7 @@ import { createTraversalFactories } from "./createTraversalFactories";
  * platforms, collectible animation, and teardown. React retains UI state only.
  */
 export function useAxonWorld({
+  progressionHydrated,
   audioRef,
   abilitiesRef,
   completedMachinesRef,
@@ -54,6 +55,7 @@ export function useAxonWorld({
   onCoreRewardStart,
   onCoreRewardComplete,
 }: {
+  progressionHydrated: boolean;
   audioRef: RefObject<AxonAudio>;
   abilitiesRef: RefObject<Set<Ability>>;
   completedMachinesRef: RefObject<Set<string>>;
@@ -103,6 +105,7 @@ export function useAxonWorld({
   };
 
   useEffect(() => {
+    if (!progressionHydrated) return;
     const mount = mountRef.current;
     if (!mount) return;
     const scene = new THREE.Scene();
@@ -1608,6 +1611,7 @@ export function useAxonWorld({
       runtime.current = null;
     };
   }, [
+    progressionHydrated,
     abilitiesRef,
     audioRef,
     collectedMachineRewardsRef,
