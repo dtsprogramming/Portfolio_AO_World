@@ -1,5 +1,4 @@
 import type { CSSProperties } from "react";
-import Image from "next/image";
 import { profileSite } from "./worldData";
 
 /**
@@ -59,12 +58,13 @@ export function ProfilePanel({
               ))}
             </div>
           ) : (
-            <Image
+            // The hosted standalone build serves these public assets directly.
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
               src={profileTab === 1 ? "/game-project-atlas.png" : "/daniel-silva-profile.png"}
               alt={profileTab === 1 ? "Game development project gallery" : "Daniel Silva"}
               width={960}
               height={540}
-              unoptimized
             />
           )}
           <article>

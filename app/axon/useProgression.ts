@@ -25,29 +25,31 @@ export function useProgression() {
 
   useEffect(() => {
     // Restore after hydration so server and first client render remain identical.
-    const frame = requestAnimationFrame(() => {
-      try {
-        const saved = JSON.parse(
-          localStorage.getItem("axon-progress-v1") || "[]",
-        ) as Ability[];
-        const valid = saved.filter((item): item is Ability =>
-          ["sprint", "jump", "scan"].includes(item),
-        );
-        const completed = JSON.parse(
-          localStorage.getItem("axon-machines-v1") || "[]",
-        ) as string[];
-        const collectedRewards = JSON.parse(
-          localStorage.getItem("axon-machine-batteries-v1") || "[]",
-        ) as string[];
-        const extraPieces = [
-          "axon-transistor-cmos-v1",
-          "axon-platform-cmos-v1",
-          "axon-maze-cmos-v1",
-        ].filter((key) => localStorage.getItem(key) === "1").length;
+    let cancelled = false;
+    try {
+      const saved = JSON.parse(
+        localStorage.getItem("axon-progress-v1") || "[]",
+      ) as Ability[];
+      const valid = saved.filter((item): item is Ability =>
+        ["sprint", "jump", "scan"].includes(item),
+      );
+      const completed = JSON.parse(
+        localStorage.getItem("axon-machines-v1") || "[]",
+      ) as string[];
+      const collectedRewards = JSON.parse(
+        localStorage.getItem("axon-machine-batteries-v1") || "[]",
+      ) as string[];
+      const extraPieces = [
+        "axon-transistor-cmos-v1",
+        "axon-platform-cmos-v1",
+        "axon-maze-cmos-v1",
+      ].filter((key) => localStorage.getItem(key) === "1").length;
 
-        abilitiesRef.current = new Set(valid);
-        completedMachinesRef.current = new Set(completed);
-        collectedMachineRewardsRef.current = new Set(collectedRewards);
+      abilitiesRef.current = new Set(valid);
+      completedMachinesRef.current = new Set(completed);
+      collectedMachineRewardsRef.current = new Set(collectedRewards);
+      queueMicrotask(() => {
+        if (cancelled) return;
         setAbilities(valid);
         setCompletedMachines(completed);
         setCollectedMachineRewards(collectedRewards);
@@ -66,11 +68,13 @@ export function useProgression() {
                 ? "Locate CMOS-02 along the western bus."
                 : "Locate CMOS-01 on the main signal bus.",
         );
-      } catch {
-        // Invalid local saves fall back to a clean progression state.
-      }
-    });
-    return () => cancelAnimationFrame(frame);
+      });
+    } catch {
+      // Invalid local saves fall back to a clean progression state.
+    }
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
   return {
@@ -98,4 +102,3 @@ export function useProgression() {
     setPracticeScore,
   };
 }
-

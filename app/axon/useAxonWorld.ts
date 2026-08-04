@@ -200,7 +200,7 @@ export function useAxonWorld({
             ["OVERCLOCK", "BOOST TOGGLE", "sprint"],
             ["ACTUATOR", "JUMP BUTTON", "jump"],
             ["OPTICAL SCAN", "TAP PROMPT // NEAR", "scan"],
-            ["EYE PULSE", "TAP TARGET // RANGE", "prism"],
+            ["EYE PULSE", "PULSE // WORLD + RANGE", "prism"],
           ]
         : [
             ["MOVE / STEER", "W S / A D", null],
@@ -208,7 +208,7 @@ export function useAxonWorld({
             ["OVERCLOCK", "SHIFT", "sprint"],
             ["ACTUATOR", "SPACE", "jump"],
             ["OPTICAL SCAN", "E // NEAR MACHINES", "scan"],
-            ["EYE PULSE", "F / CLICK // RANGE", "prism"],
+            ["EYE PULSE", "F // WORLD + RANGE", "prism"],
           ];
       rows.forEach(([label, key, ability], i) => {
         const y = 150 + i * 57,
@@ -749,7 +749,11 @@ export function useAxonWorld({
       const target = hit
         ? gallery.targets.find((item) => item.hitMesh === hit.object) ?? null
         : null;
-      if (target) target.active = false;
+      if (target) {
+        target.active = false;
+        target.group.visible = false;
+        target.respawnAt = clock.elapsedTime - galleryStart + 0.12 + Math.random() * 0.2;
+      }
       const cameraRight = new THREE.Vector3(1, 0, 0).applyQuaternion(camera.quaternion);
       [-0.13, 0.13].forEach((offset, index) => {
         const start = camera.position.clone()
@@ -1263,8 +1267,6 @@ export function useAxonWorld({
           scene.remove(projectile.mesh);
           pulseProjectiles.splice(index, 1);
           if (!projectile.award || !projectile.target) continue;
-          projectile.target.group.visible = false;
-          projectile.target.respawnAt = elapsed + 0.22 + Math.random() * 0.38;
           galleryScore +=
             100 + Math.round(projectile.target.depth * 2.5 + projectile.target.level * 12);
           setGalleryHud((current) => ({ ...current, score: galleryScore }));

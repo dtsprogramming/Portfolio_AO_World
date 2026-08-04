@@ -400,8 +400,10 @@ export function AxonExperience() {
           <p>
             Full-board restoration complete. Prism lighting has been routed to
             the robot shell, the Eye Pulse laser is now online, and 1,000
-            systems-trial points were awarded. Scan the southeast Pulse Range
-            to test it.
+            systems-trial points were awarded. In the open world, press F on
+            desktop or tap the PULSE button on mobile to fire. Scan the
+            southeast Pulse Range to begin the timed targeting trial; click,
+            tap, Space, or F fires while inside the range.
           </p>
           <button onClick={() => setShowCoreReward(false)}>
             EYE PULSE ONLINE // ACKNOWLEDGE
