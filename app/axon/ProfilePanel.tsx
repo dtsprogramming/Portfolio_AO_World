@@ -65,6 +65,14 @@ export function ProfilePanel({
               alt={profileTab === 1 ? "Game development project gallery" : "Daniel Silva"}
               width={960}
               height={540}
+              loading="eager"
+              onError={(event) => {
+                const file = profileTab === 1
+                  ? "game-project-atlas.png"
+                  : "daniel-silva-profile.png";
+                if (!event.currentTarget.src.includes(`/public/${file}`))
+                  event.currentTarget.src = `/public/${file}`;
+              }}
             />
           )}
           <article>

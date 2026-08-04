@@ -99,3 +99,16 @@
     transition: none !important;
   }
 }
+
+@media (max-width: 820px), (pointer: coarse) and (max-width: 1100px) {
+  .profile-panel {
+    max-height: calc(100dvh - 96px);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .profile-gallery img {
+    min-height: 150px;
+    background: #07110d;
+  }
+}
