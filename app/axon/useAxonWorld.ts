@@ -930,7 +930,29 @@ export function useAxonWorld({
     };
     resize();
     addEventListener("resize", resize);
+    // Compile celebration shaders while the loading sequence is still visible.
+    // Materials are transparent here, so the warm-up does not alter the scene.
+    fireworkBursts.forEach((burst) => {
+      burst.group.visible = true;
+      burst.rocket.visible = true;
+      burst.trail.visible = true;
+    });
+    laserBeams.forEach((beam) => (beam.mesh.visible = true));
+    void renderer.compileAsync(scene, camera).finally(() => {
+      fireworkBursts.forEach((burst) => {
+        burst.group.visible = false;
+        burst.rocket.visible = false;
+        burst.trail.visible = false;
+      });
+      laserBeams.forEach((beam) => (beam.mesh.visible = false));
+    });
     const clock = new THREE.Clock();
+    const fireworkTransform = new THREE.Object3D();
+    const laserTarget = new THREE.Vector3();
+    const laserDirection = new THREE.Vector3();
+    const laserUp = new THREE.Vector3(0, 1, 0);
+    const cinematicPosition = new THREE.Vector3(-72, 52, 102);
+    let celebrationShadowFrozen = false;
     scene.onBeforeRender = () => {
       const t = clock.elapsedTime;
       groundCeiling = bot.position.y + 0.8;
@@ -973,37 +995,46 @@ export function useAxonWorld({
           burst.group.visible = true;
           burst.material.opacity = Math.max(0, 1 - local / 2.25);
           burst.light.intensity = Math.max(0, 48 * (1 - local / 1.4));
-          burst.particles.forEach((particle) => {
-            const direction = particle.userData.direction as THREE.Vector3;
-            particle.position.copy(direction).multiplyScalar(radius);
-            particle.position.y -= local * local * 1.4;
+          burst.directions.forEach((direction, index) => {
+            fireworkTransform.position.copy(direction).multiplyScalar(radius);
+            fireworkTransform.position.y -= local * local * 1.4;
+            fireworkTransform.updateMatrix();
+            burst.particles.setMatrixAt(index, fireworkTransform.matrix);
           });
+          burst.particles.instanceMatrix.needsUpdate = true;
         } else {
           burst.group.visible = false;
           burst.light.intensity = 0;
         }
       });
       const lasersActive = showElapsed >= 0 && showElapsed < 7;
+      if (lasersActive && !celebrationShadowFrozen) {
+        renderer.shadowMap.autoUpdate = false;
+        celebrationShadowFrozen = true;
+      } else if (!lasersActive && celebrationShadowFrozen) {
+        renderer.shadowMap.autoUpdate = true;
+        renderer.shadowMap.needsUpdate = true;
+        celebrationShadowFrozen = false;
+      }
       laserBeams.forEach((beam, index) => {
         beam.mesh.visible = lasersActive;
         if (!lasersActive) return;
         beam.material.opacity = 0.28 + Math.sin(t * 8 + beam.phase) * 0.16;
-        const target = new THREE.Vector3(
+        laserTarget.set(
           Math.sin(t * 1.7 + beam.phase) * 48,
           30 + Math.sin(t * 2.1 + index) * 10,
           Math.cos(t * 1.35 + beam.phase) * 42 - 4,
         );
-        const direction = target.clone().sub(beam.origin);
-        const length = direction.length();
-        beam.mesh.position.copy(beam.origin).add(target).multiplyScalar(0.5);
+        laserDirection.copy(laserTarget).sub(beam.origin);
+        const length = laserDirection.length();
+        beam.mesh.position.copy(beam.origin).add(laserTarget).multiplyScalar(0.5);
         beam.mesh.scale.set(1, length, 1);
         beam.mesh.quaternion.setFromUnitVectors(
-          new THREE.Vector3(0, 1, 0),
-          direction.normalize(),
+          laserUp,
+          laserDirection.normalize(),
         );
       });
       if (showElapsed >= 0 && showElapsed < 7) {
-        const cinematicPosition = new THREE.Vector3(-72, 52, 102);
         camera.position.lerp(cinematicPosition, 0.085);
         camera.lookAt(0, 13, -14);
       }

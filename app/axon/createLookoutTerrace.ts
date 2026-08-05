@@ -119,6 +119,7 @@ export function createLookoutTerrace(
   lookoutButton.position.set(-27.8, 10.49, 20.6);
   scene.add(lookoutButton);
   const fireworkColors = [0x43e5c4, 0xc8ff55, 0xc56cff, 0xff9b45];
+  const fireworkParticleGeometry = new THREE.SphereGeometry(0.13, 6, 6);
   const fireworkBursts = [
     { position: [-5, 27, 18], delay: 0.95 },
     { position: [34, 32, -12], delay: 2.05 },
@@ -133,21 +134,22 @@ export function createLookoutTerrace(
       opacity: 0,
       toneMapped: false,
     });
-    const particles: THREE.Mesh[] = [];
+    const directions: THREE.Vector3[] = [];
+    const particles = new THREE.InstancedMesh(
+      fireworkParticleGeometry,
+      material,
+      30,
+    );
+    particles.frustumCulled = false;
+    group.add(particles);
     for (let i = 0; i < 30; i++) {
-      const particle = new THREE.Mesh(
-        new THREE.SphereGeometry(0.13, 6, 6),
-        material,
-      );
       const phi = (i / 30) * Math.PI * 2;
       const rise = ((i * 7) % 15) / 14 * 1.5 - 0.4;
-      particle.userData.direction = new THREE.Vector3(
+      directions.push(new THREE.Vector3(
         Math.cos(phi) * (0.7 + (i % 4) * 0.12),
         rise,
         Math.sin(phi) * (0.7 + ((i + 2) % 4) * 0.12),
-      ).normalize();
-      group.add(particle);
-      particles.push(particle);
+      ).normalize());
     }
     const light = new THREE.PointLight(fireworkColors[burstIndex], 0, 35);
     group.add(light);
@@ -171,7 +173,7 @@ export function createLookoutTerrace(
     rocket.visible = false;
     trail.visible = false;
     scene.add(rocket, trail);
-    return { ...burst, group, particles, material, light, rocket, trail, rocketMaterial };
+    return { ...burst, group, particles, directions, material, light, rocket, trail, rocketMaterial };
   });
   const laserColors = [0x43e5c4, 0xc56cff, 0xc8ff55, 0xff9b45, 0x38e6ff, 0xff4f91];
   const laserOrigins: [number, number, number][] = [
