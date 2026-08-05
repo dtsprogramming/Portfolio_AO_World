@@ -758,7 +758,7 @@ export function useAxonWorld({
       if (target) {
         target.active = false;
         target.group.visible = false;
-        target.respawnAt = clock.elapsedTime - galleryStart + 0.12 + Math.random() * 0.2;
+        target.respawnAt = clock.elapsedTime - galleryStart + 1.5 + Math.random() * 1.5;
       }
       const cameraRight = new THREE.Vector3(1, 0, 0).applyQuaternion(camera.quaternion);
       [-0.13, 0.13].forEach((offset, index) => {
