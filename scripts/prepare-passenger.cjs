@@ -21,6 +21,8 @@ const standaloneServer = resolve(standalone, "server.js");
 const vinextServer = resolve(standalone, "vinext-server.mjs");
 const generatedClient = resolve(output, "client");
 const standaloneClient = resolve(standalone, "client");
+const outputServer = resolve(output, "server.js");
+const outputPackage = resolve(output, "package.json");
 
 mkdirSync(output, { recursive: true });
 copyFileSync(resolve(root, "server.cjs"), resolve(output, "server.cjs"));
@@ -60,6 +62,31 @@ import "./vinext-server.mjs";
 `,
 );
 
+// Hostinger recognizes dist/client and dist/server as the Vinext output, so
+// make dist itself a complete Node application rather than relying on the host
+// to promote the nested standalone directory.
+writeFileSync(
+  outputServer,
+  `#!/usr/bin/env node
+import "./standalone/vinext-server.mjs";
+`,
+);
+writeFileSync(
+  outputPackage,
+  `${JSON.stringify(
+    {
+      name: "axon-override-hostinger",
+      version: "1.0.0",
+      private: true,
+      type: "module",
+      engines: { node: ">=22.13.0" },
+      scripts: { start: "node server.js" },
+    },
+    null,
+    2,
+  )}\n`,
+);
+
 cpSync(resolve(root, "public"), standalone, {
   recursive: true,
   force: true,
@@ -86,9 +113,14 @@ writeFileSync(
   `${JSON.stringify(standalonePackage, null, 2)}\n`,
 );
 
-if (!existsSync(standaloneServer) || !existsSync(vinextServer)) {
+if (
+  !existsSync(outputServer) ||
+  !existsSync(generatedClient) ||
+  !existsSync(standaloneServer) ||
+  !existsSync(vinextServer)
+) {
   throw new Error(
-    "Hostinger server output missing: dist/standalone/server.js or vinext-server.mjs",
+    "Hostinger output missing: dist/server.js, dist/client, or standalone runtime",
   );
 }
 
@@ -100,5 +132,5 @@ mkdirSync(resolve(root, ".next"), { recursive: true });
 cpSync(standalone, nextStandalone, { recursive: true, force: true });
 
 console.log(
-  "[axon] Prepared Hostinger server.js, Vinext server, and client assets.",
+  "[axon] Prepared runnable dist output with server.js and client assets.",
 );

@@ -9,7 +9,7 @@
     "dev": "vinext dev",
     "build": "vinext build",
     "postbuild": "node scripts/prepare-passenger.cjs",
-    "start": "node server.cjs",
+    "start": "node dist/server.js",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next"
   },
