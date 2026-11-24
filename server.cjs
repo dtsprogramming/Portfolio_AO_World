@@ -8,8 +8,9 @@ const { resolve } = require("node:path");
 const { pathToFileURL } = require("node:url");
 
 const candidates = [
-  resolve(__dirname, "dist", "standalone", "server.js"),
-  resolve(__dirname, "standalone", "server.js"),
+  resolve(__dirname, "vinext-server.mjs"),
+  resolve(__dirname, "dist", "standalone", "vinext-server.mjs"),
+  resolve(__dirname, "standalone", "vinext-server.mjs"),
 ];
 const server = candidates.find(existsSync);
 
