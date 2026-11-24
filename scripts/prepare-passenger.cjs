@@ -5,6 +5,7 @@
 const {
   copyFileSync,
   cpSync,
+  existsSync,
   mkdirSync,
   readFileSync,
   rmSync,
@@ -16,9 +17,37 @@ const root = resolve(__dirname, "..");
 const output = resolve(root, "dist");
 const standalone = resolve(output, "standalone");
 const nextStandalone = resolve(root, ".next", "standalone");
+const standaloneServer = resolve(standalone, "server.js");
 
 mkdirSync(output, { recursive: true });
 copyFileSync(resolve(root, "server.cjs"), resolve(output, "server.cjs"));
+
+// Vinext normally creates this entrypoint. Generate the equivalent launcher as
+// a deployment safeguard if a hosting build omits it from the standalone copy.
+if (!existsSync(standaloneServer)) {
+  mkdirSync(standalone, { recursive: true });
+  writeFileSync(
+    standaloneServer,
+    `#!/usr/bin/env node
+import { join } from "node:path";
+import { startProdServer } from "vinext/server/prod-server";
+
+const port = Number.parseInt(process.env.PORT ?? "3000", 10);
+const host = process.env.HOST ?? "0.0.0.0";
+
+startProdServer({
+  port,
+  host,
+  outDir: join(import.meta.dirname, "dist"),
+}).catch((error) => {
+  console.error("[vinext] Failed to start standalone server");
+  console.error(error);
+  process.exit(1);
+});
+`,
+  );
+}
+
 cpSync(resolve(root, "public"), standalone, {
   recursive: true,
   force: true,
@@ -34,6 +63,10 @@ writeFileSync(
   standalonePackagePath,
   `${JSON.stringify(standalonePackage, null, 2)}\n`,
 );
+
+if (!existsSync(standaloneServer)) {
+  throw new Error("Hostinger entrypoint missing: dist/standalone/server.js");
+}
 
 // Hostinger may classify this Vinext project as standard Next.js because the
 // compatibility package is installed. Keep the conventional output available
